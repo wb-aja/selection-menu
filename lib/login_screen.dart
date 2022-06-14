@@ -81,15 +81,11 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           Text(
-            'Welcome back!',
+            'Rumah Makan Lamak Bana',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black),
           ),
           SizedBox(
             height: 10,
-          ),
-          Text(
-            'log in to your existant account of Q Allure',
-            style: TextStyle(color: Colors.black),
           ),
           SizedBox(
             height: 30,
@@ -265,10 +261,6 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           SizedBox(
             height: 30,
-          ),
-          Text(
-            'Or Connect using',
-            style: TextStyle(fontSize: 12, color: Colors.black),
           ),
           SizedBox(
             height: 10,
