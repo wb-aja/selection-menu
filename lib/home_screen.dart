@@ -5,10 +5,13 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text('Home'),
+        title: new Text('Rumah Makan Lamak Bana'),
       ),
       body: new Center(
-        child: new Text('Selamat Belajar Flutter', style: TextStyle(fontSize: 20.0),),
+        child: new Text(
+          'Selamat Datang',
+          style: TextStyle(fontSize: 20.0),
+        ),
       ),
     );
   }
