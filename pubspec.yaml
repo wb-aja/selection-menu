@@ -72,6 +72,9 @@ flutter:
     - assets/images/minuman/minum_es_teh.jpg
     - assets/images/minuman/minum_teh_tawar.jpg
     - assets/images/minuman/minum_es_jeruk.jpg
+    - assets/images/snack/krupuk_bandung.jpg
+    - assets/images/snack/lauk_telur_dadar.jpg
+    - assets/images/snack/peyek_udang.jpg
     - assets/images/logo.png
     
   #   - images/a_dot_ham.jpeg

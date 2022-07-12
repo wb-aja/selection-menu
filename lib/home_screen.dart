@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'makanan.dart';
 import 'minuman.dart';
+import 'snack.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -56,7 +57,11 @@ class HomeScreen extends StatelessWidget {
           Card(
             margin: const EdgeInsets.all(8),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => Snack()),
+                );
+              },
               splashColor: Colors.blue,
               child: Center(
                 child: Column(
