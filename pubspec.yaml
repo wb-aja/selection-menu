@@ -68,6 +68,10 @@ flutter:
     - assets/images/makanan/lauk_kembung_bakar.jpg
     - assets/images/makanan/lauk_rendang.jpg
     - assets/images/makanan/nasi_putih.jpg
+    - assets/images/minuman/minum_aqua.jpg
+    - assets/images/minuman/minum_es_teh.jpg
+    - assets/images/minuman/minum_teh_tawar.jpg
+    - assets/images/minuman/minum_es_jeruk.jpg
     
   #   - images/a_dot_ham.jpeg
 
