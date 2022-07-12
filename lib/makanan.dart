@@ -21,7 +21,7 @@ class Makanan extends StatelessWidget {
                   child: Stack(
                 children: [
                   Ink.image(
-                    image: NetworkImage('https://drive.google.com/file/d/19Cri7VJTHZSBdM7rBJTxMrT5pktg99Cc/view?usp=sharing'),
+                    image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
                     height: 70,
                     fit: BoxFit.cover,
                   )
