@@ -22,7 +22,7 @@ class Minuman extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage('assets/images/makanan/minum_aqua.jpg'),
+                      image: AssetImage('assets/images/minuman/minum_aqua.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
@@ -43,7 +43,7 @@ class Minuman extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage('assets/images/makanan/minum_es_teh.jpg'),
+                      image: AssetImage('assets/images/minuman/minum_es_teh.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
@@ -64,7 +64,7 @@ class Minuman extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage('assets/images/makanan/minum_teh_tawar.jpg'),
+                      image: AssetImage('assets/images/minuman/minum_teh_tawar.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
@@ -85,7 +85,7 @@ class Minuman extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage('assets/images/makanan/minum_es_jeruk.jpg'),
+                      image: AssetImage('assets/images/minuman/minum_es_jeruk.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
