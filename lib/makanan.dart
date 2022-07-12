@@ -24,7 +24,8 @@ class Makanan extends StatelessWidget {
                     image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
                     height: 70,
                     fit: BoxFit.cover,
-                  )
+                  ),
+                  Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
                 ],
               )),
             ),
