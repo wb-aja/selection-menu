@@ -19,6 +19,7 @@ class Makanan extends StatelessWidget {
               splashColor: Colors.blue,
               child: Center(
                   child: Stack(
+                alignment: Alignment.bottomCenter,
                 children: [
                   Ink.image(
                     image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
