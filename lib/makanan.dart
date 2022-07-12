@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
-class HomeScreen extends StatelessWidget {
+class Makanan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,14 +18,15 @@ class HomeScreen extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: const <Widget>[
-                    Image(image: assets),
-                    Text("Makanan", style: TextStyle(fontSize: 17.0)),
-                  ],
-                ),
-              ),
+                  child: Stack(
+                children: [
+                  Ink.image(
+                    image: NetworkImage('https://drive.google.com/file/d/19Cri7VJTHZSBdM7rBJTxMrT5pktg99Cc/view?usp=sharing'),
+                    height: 70,
+                    fit: BoxFit.cover,
+                  )
+                ],
+              )),
             ),
           ),
           Card(
