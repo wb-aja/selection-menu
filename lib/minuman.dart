@@ -24,6 +24,7 @@ class Minuman extends StatelessWidget {
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_aqua.jpg'),
                       height: 90,
+                      width: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
