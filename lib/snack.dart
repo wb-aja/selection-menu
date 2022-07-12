@@ -44,7 +44,7 @@ class Snack extends StatelessWidget {
                   alignment: Alignment.bottomCenter,
                   children: [
                     Ink.image(
-                      image: AssetImage('assets/images/snack/.lauk_telur_dadar.jpg'),
+                      image: AssetImage('assets/images/snack/lauk_telur_dadar.jpg'),
                       height: 70,
                       width: 90,
                       fit: BoxFit.cover,
