@@ -18,17 +18,19 @@ class Makanan extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                  child: Stack(
-                alignment: Alignment.bottomCenter,
-                children: [
-                  Ink.image(
-                    image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
-                    height: 70,
-                    fit: BoxFit.cover,
-                  ),
-                  Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
-                ],
-              )),
+                child: Stack(
+                  alignment: Alignment.bottomCenter,
+                  children: [
+                    Ink.image(
+                      image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
+                      height: 70,
+                      fit: BoxFit.cover,
+                    ),
+                    SizedBox(height: 8),
+                    Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
+                  ],
+                ),
+              ),
             ),
           ),
           Card(
