@@ -9,7 +9,7 @@ class Minuman extends StatelessWidget {
         title: new Text('Rumah Makan Lamak Bana'),
       ),
       body: GridView.count(
-        padding: const EdgeInsets.all(25),
+        padding: const EdgeInsets.all(10),
         crossAxisCount: 1,
         children: <Widget>[
           Card(
@@ -46,6 +46,7 @@ class Minuman extends StatelessWidget {
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_teh.jpg'),
                       height: 90,
+                      width: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
@@ -67,6 +68,7 @@ class Minuman extends StatelessWidget {
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_teh_tawar.jpg'),
                       height: 70,
+                      width: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
@@ -88,6 +90,7 @@ class Minuman extends StatelessWidget {
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_jeruk.jpg'),
                       height: 90,
+                      width: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
