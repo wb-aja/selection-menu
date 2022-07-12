@@ -10,7 +10,7 @@ class Minuman extends StatelessWidget {
       ),
       body: GridView.count(
         padding: const EdgeInsets.all(25),
-        crossAxisCount: 2,
+        crossAxisCount: 1,
         children: <Widget>[
           Card(
             margin: const EdgeInsets.all(8),
@@ -23,7 +23,7 @@ class Minuman extends StatelessWidget {
                   children: [
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_aqua.jpg'),
-                      height: 70,
+                      height: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
@@ -44,7 +44,7 @@ class Minuman extends StatelessWidget {
                   children: [
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_teh.jpg'),
-                      height: 70,
+                      height: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
@@ -86,7 +86,7 @@ class Minuman extends StatelessWidget {
                   children: [
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_jeruk.jpg'),
-                      height: 70,
+                      height: 90,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
