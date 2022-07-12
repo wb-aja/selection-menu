@@ -59,22 +59,6 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          Card(
-            margin: const EdgeInsets.all(8),
-            child: InkWell(
-              onTap: () {},
-              splashColor: Colors.blue,
-              child: BottomAppBar(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: const <Widget>[
-                    Icon(Icons.shopping_basket_outlined, size: 70, color: Colors.blueAccent),
-                    Text("Keranjang", style: TextStyle(fontSize: 17.0)),
-                  ],
-                ),
-              ),
-            ),
-          )
         ],
       ),
     );
