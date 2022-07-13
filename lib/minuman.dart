@@ -10,7 +10,7 @@ class Minuman extends StatelessWidget {
       ),
       body: GridView.count(
         padding: const EdgeInsets.all(10),
-        crossAxisCount: 1,
+        crossAxisCount: 2,
         children: <Widget>[
           Card(
             margin: const EdgeInsets.all(8),
@@ -18,17 +18,15 @@ class Minuman extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Aqua Botol", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_aqua.jpg'),
-                      height: 90,
-                      width: 90,
+                      height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Aqua Botol", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -40,17 +38,15 @@ class Minuman extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Es Teh", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_teh.jpg'),
-                      height: 90,
-                      width: 90,
+                      height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("ES Teh", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -62,17 +58,15 @@ class Minuman extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Teh Anget/Tawar", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_teh_tawar.jpg'),
                       height: 70,
-                      width: 90,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Teh Anget/Tawar", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -84,17 +78,15 @@ class Minuman extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Es Jeruk", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_jeruk.jpg'),
-                      height: 90,
-                      width: 90,
+                      height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("ES Jeruk", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
