@@ -82,8 +82,8 @@ class Snack extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 40),
                 child: Container(
-                  height: 70,
-                  width: MediaQuery.of(context).size.width,
+                  height: 50,
+                  //width: MediaQuery.of(context).size.width,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         primary: Colors.green,
@@ -99,7 +99,7 @@ class Snack extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 10,
+                height: 20,
               ),
             ],
           ),
