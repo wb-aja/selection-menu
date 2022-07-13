@@ -24,7 +24,7 @@ class Makanan extends StatelessWidget {
                     SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
-                      height: 60,
+                      height: 70,
                       fit: BoxFit.cover,
                     ),
                   ],
@@ -58,16 +58,15 @@ class Makanan extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Ikan Tenggiri", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/lauk_ikan_tenggiri_asam.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Ikan Tenggiri", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -79,16 +78,15 @@ class Makanan extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Kembung Bakar", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/lauk_kembung_bakar.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Kembung Bakar", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -100,16 +98,15 @@ class Makanan extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Rendang", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/lauk_rendang.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Rendang", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -121,16 +118,15 @@ class Makanan extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Nasi Putih", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/nasi_putih.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Nasi Putih", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
