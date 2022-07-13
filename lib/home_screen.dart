@@ -83,7 +83,7 @@ class HomeScreen extends StatelessWidget {
       drawer: Drawer(
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
+            //mainAxisAlignment: MainAxisAlignment.start,
             children: [
               SizedBox(
                 width: 150,
