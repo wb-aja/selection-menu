@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'login_screen.dart';
 import 'makanan.dart';
 import 'minuman.dart';
 import 'snack.dart';
@@ -73,6 +75,31 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              SizedBox(
+                width: 150,
+                height: 30,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.red,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                  onPressed: () {
+                    var box = Hive.box('userBox').clear();
+
+                    Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (_) => LoginScreen()),
+                    );
+                  },
+                  child: Text('Logout'),
+                ),
+              ),
+            ],
           ),
         ],
       ),
