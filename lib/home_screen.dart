@@ -81,33 +81,29 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       drawer: Drawer(
-        child: Center(
-          child: Column(
-            //mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              SizedBox(
-                width: 150,
-                height: 30,
-                child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                  ),
-                  onPressed: () {
-                    var box = Hive.box('userBox').clear();
+        child: Column(
+          children: <Widget>[
+            ListTile(
+              leading: Icon(Icons.alarm),
+              title: Text("Logout"),
+              onTap: () {
+                // Change the applications state
+                var box = Hive.box('userBox').clear();
 
-                    Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (_) => LoginScreen()),
-                    );
-                  },
-                  child: Text('Logout'),
-                ),
-              ),
-            ],
-          ),
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => LoginScreen()),
+                );
+              },
+            ),
+          ],
         ),
+
+        //child: Column(
+        //mainAxisAlignment: MainAxisAlignment.start,
+        //children: [
+
+        //],
+        // ),
       ),
     );
   }
