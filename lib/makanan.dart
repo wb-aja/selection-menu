@@ -21,13 +21,13 @@ class Makanan extends StatelessWidget {
                 child: Stack(
                   alignment: Alignment.bottomCenter,
                   children: [
+                    Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 8),
-                    Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
