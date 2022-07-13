@@ -10,7 +10,7 @@ class Snack extends StatelessWidget {
       ),
       body: GridView.count(
         padding: const EdgeInsets.all(10),
-        crossAxisCount: 1,
+        crossAxisCount: 2,
         children: <Widget>[
           Card(
             margin: const EdgeInsets.all(8),
@@ -18,17 +18,15 @@ class Snack extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Krupuk Bandung", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/snack/krupuk_bandung.jpg'),
-                      height: 90,
-                      width: 90,
+                      height: 80,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Krupuk Bandung", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -40,17 +38,15 @@ class Snack extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Telur Padang", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/snack/lauk_telur_dadar.jpg'),
-                      height: 70,
-                      width: 90,
+                      height: 80,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Lauk Telur", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -62,17 +58,15 @@ class Snack extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Peyek Udang", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/snack/peyek_udang.jpg'),
-                      height: 90,
-                      width: 90,
+                      height: 80,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Peyek Udang", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
