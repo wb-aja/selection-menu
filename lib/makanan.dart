@@ -22,15 +22,10 @@ class Makanan extends StatelessWidget {
                   children: [
                     Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
                     SizedBox(height: 8),
-                    Stack(
-                      alignment: Alignment.topCenter,
-                      children: [
-                        Ink.image(
-                          image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
-                          height: 60,
-                          fit: BoxFit.cover,
-                        ),
-                      ],
+                    Ink.image(
+                      image: AssetImage('assets/images/makanan/lauk_ayam_bakar.jpg'),
+                      height: 60,
+                      fit: BoxFit.cover,
                     ),
                   ],
                 ),
