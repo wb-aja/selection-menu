@@ -79,45 +79,38 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    SizedBox(
-                      width: 150,
-                      height: 30,
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.red,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30),
-                          ),
-                        ),
-                        onPressed: () {
-                          var box = Hive.box('userBox').clear();
-
-                          Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(builder: (_) => LoginScreen()),
-                          );
-                        },
-                        child: Text('Logout'),
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-            Column(
-              children: [
-                SizedBox(
-                  height: 20,
-                ),
-                Text(
-                  'Nama : Trimurti Sari',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 28, color: Colors.black),
-                ),
               ],
             ),
           ],
+        ),
+      ),
+      drawer: Drawer(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              SizedBox(
+                width: 150,
+                height: 30,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.red,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                  onPressed: () {
+                    var box = Hive.box('userBox').clear();
+
+                    Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (_) => LoginScreen()),
+                    );
+                  },
+                  child: Text('Logout'),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
