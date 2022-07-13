@@ -38,16 +38,15 @@ class Makanan extends StatelessWidget {
               onTap: () {},
               splashColor: Colors.blue,
               child: Center(
-                child: Stack(
-                  alignment: Alignment.bottomCenter,
+                child: Column(
                   children: [
+                    Text("Gulai Cumi", style: TextStyle(fontSize: 17.0)),
+                    SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/makanan/lauk_gulai_cumi.jpg'),
                       height: 70,
                       fit: BoxFit.cover,
                     ),
-                    SizedBox(height: 8),
-                    Text("Gulai Cumi", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
