@@ -84,12 +84,15 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.verified_user),
+              leading: Icon(Icons.person),
               title: Text("Profile"),
               onTap: () {
                 // Change the applications state
-                print("Silahkan Pindah Halaman");
-                Navigator.pop(context);
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text('Fitur dalam pengembangan'),
+                  ),
+                );
               },
             ),
             ListTile(
