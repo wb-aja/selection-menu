@@ -24,7 +24,7 @@ class Minuman extends StatelessWidget {
                     SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_aqua.jpg'),
-                      height: 70,
+                      height: 100,
                       fit: BoxFit.cover,
                     ),
                   ],
@@ -44,7 +44,7 @@ class Minuman extends StatelessWidget {
                     SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_teh.jpg'),
-                      height: 70,
+                      height: 100,
                       fit: BoxFit.cover,
                     ),
                   ],
@@ -64,7 +64,7 @@ class Minuman extends StatelessWidget {
                     SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_teh_tawar.jpg'),
-                      height: 70,
+                      height: 100,
                       fit: BoxFit.cover,
                     ),
                   ],
@@ -84,7 +84,7 @@ class Minuman extends StatelessWidget {
                     SizedBox(height: 8),
                     Ink.image(
                       image: AssetImage('assets/images/minuman/minum_es_jeruk.jpg'),
-                      height: 70,
+                      height: 100,
                       fit: BoxFit.cover,
                     ),
                   ],
