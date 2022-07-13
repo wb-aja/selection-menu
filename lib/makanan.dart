@@ -19,7 +19,7 @@ class Makanan extends StatelessWidget {
               splashColor: Colors.blue,
               child: Center(
                 child: Stack(
-                  alignment: Alignment.bottomCenter,
+                  alignment: Alignment.topCenter,
                   children: [
                     Text("Ayam Bakar", style: TextStyle(fontSize: 17.0)),
                     Ink.image(
