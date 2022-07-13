@@ -84,7 +84,16 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.alarm),
+              leading: Icon(Icons.verified_user),
+              title: Text("Profile"),
+              onTap: () {
+                // Change the applications state
+                print("Silahkan Pindah Halaman");
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.logout),
               title: Text("Logout"),
               onTap: () {
                 // Change the applications state
