@@ -90,7 +90,13 @@ class Snack extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         )),
-                    onPressed: () {},
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text('Halaman sedang dalam pengembangan'),
+                        ),
+                      );
+                    },
                     child: const Text(
                       'Total Pesanan',
                       style: TextStyle(color: Colors.white, fontSize: 15),
