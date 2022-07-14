@@ -91,14 +91,10 @@ class Snack extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         )),
                     onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text('Halaman sedang dalam pengembangan'),
-                        ),
-                      );
+                      Navigator.pop(context);
                     },
                     child: const Text(
-                      'Total Pesanan',
+                      'Home',
                       style: TextStyle(color: Colors.white, fontSize: 15),
                     ),
                   ),
