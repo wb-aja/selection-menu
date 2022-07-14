@@ -82,7 +82,7 @@ class Minuman extends StatelessWidget {
                   child: Center(
                     child: Column(
                       children: [
-                        Text("Es Jeruk", style: TextStyle(fontSize: 17.0)),
+                        Text("Es Jeruk88", style: TextStyle(fontSize: 17.0)),
                         SizedBox(height: 8),
                         Ink.image(
                           image: AssetImage('assets/images/minuman/minum_es_jeruk.jpg'),
