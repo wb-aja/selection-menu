@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'home_screen.dart';
 
 class Minuman extends StatelessWidget {
   @override
@@ -111,7 +112,9 @@ class Minuman extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         )),
                     onPressed: () {
-                      Navigator.pop(context);
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(builder: (_) => HomeScreen()),
+                      );
                     },
                     child: const Text(
                       'Menu',
