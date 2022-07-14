@@ -114,7 +114,7 @@ class Minuman extends StatelessWidget {
                       Navigator.pop(context);
                     },
                     child: const Text(
-                      'Home',
+                      'Menu',
                       style: TextStyle(color: Colors.white, fontSize: 15),
                     ),
                   ),
