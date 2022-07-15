@@ -25,12 +25,12 @@ class HomeScreen extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => Makanan()),
                   );
                 },
-                splashColor: Colors.blue,
+                splashColor: Colors.orange.shade300,
                 child: Center(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: const <Widget>[
-                      Icon(Icons.food_bank_outlined, size: 70, color: Colors.blueAccent),
+                      Icon(Icons.food_bank_outlined, size: 70, color: Colors.orange),
                       Text("Makanan", style: TextStyle(fontSize: 17.0)),
                     ],
                   ),
@@ -45,12 +45,12 @@ class HomeScreen extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => Minuman()),
                   );
                 },
-                splashColor: Colors.blue,
+                splashColor: Colors.orange.shade300,
                 child: Center(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: const <Widget>[
-                      Icon(Icons.emoji_food_beverage_outlined, size: 70, color: Colors.blueAccent),
+                      Icon(Icons.emoji_food_beverage_outlined, size: 70, color: Colors.orange),
                       Text("Minuman", style: TextStyle(fontSize: 17.0)),
                     ],
                   ),
@@ -65,12 +65,12 @@ class HomeScreen extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => Snack()),
                   );
                 },
-                splashColor: Colors.blue,
+                splashColor: Colors.orange.shade300,
                 child: Center(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: const <Widget>[
-                      Icon(Icons.fastfood_outlined, size: 70, color: Colors.blueAccent),
+                      Icon(Icons.fastfood_outlined, size: 70, color: Colors.orange),
                       Text("Snack", style: TextStyle(fontSize: 17.0)),
                     ],
                   ),
