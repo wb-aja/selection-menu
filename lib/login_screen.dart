@@ -126,7 +126,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.red.shade900,
                           width: 2.0,
                         ),
                       ),
@@ -150,7 +150,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.red.shade900,
                       ),
                       suffixIcon: IconButton(
                         icon: Icon(hidePass ? Icons.visibility : Icons.visibility_off),
@@ -171,7 +171,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.red.shade900,
                           width: 2.0,
                         ),
                       ),
@@ -184,7 +184,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ],
             ),
             data: Theme.of(context).copyWith(
-              primaryColor: Colors.blue,
+              primaryColor: Colors.red.shade900,
               // textTheme: const TextTheme(
               //  subtitle1: const TextStyle(
               //    color: Colors.blue, // <-- TextFormField input color
@@ -252,7 +252,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   }
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue.shade900,
+                  primary: Colors.blue.red.shade900,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50),
                   ),
