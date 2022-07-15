@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
       //fontWeight: FontWeight.bold,
       //),
       //),
-      backgroundColor: Colors.grey.shade900,
+      backgroundColor: Colors.grey.shade100,
       showLoader: true,
       loadingText: Text("Loading..."),
       navigator: LoginScreen(),
