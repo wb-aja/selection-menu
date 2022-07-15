@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.orange,
       ),
       debugShowCheckedModeBanner: false,
-      home: SplashScreenPage(),
+      home: SplashScreen(),
     );
   }
 }
