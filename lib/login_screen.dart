@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'home_screen.dart';
+import 'signup_screen.dart';
 
 //List<FocusNode> _focusNodes = [
 // FocusNode(),
@@ -262,9 +263,27 @@ class _LoginScreenState extends State<LoginScreen> {
           SizedBox(
             height: 30,
           ),
-          SizedBox(
-            height: 10,
+          RichText(
+            text: TextSpan(
+              text: 'Dont have an Account ? ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: textSize, color: Colors.black),
+              children: <TextSpan>[
+                TextSpan(
+                  text: 'Sign Up',
+                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),
+                  recognizer: TapGestureRecognizer()
+                    ..onTap = () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => SignupScreen(),
+                        ),
+                      );
+                    },
+                ),
+              ],
+            ),
           ),
+
           SizedBox(
             height: 20,
           ),
