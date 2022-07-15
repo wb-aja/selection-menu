@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
     _focusNode1.addListener(() {
       if (_focusNode1.hasFocus) {
         setState(() {
-          _color1 = Colors.red.shade900;
+          _color1 = Colors.orange.shade900;
         });
       } else {
         setState(() {
@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
     _focusNode2.addListener(() {
       if (_focusNode2.hasFocus) {
         setState(() {
-          _color2 = Colors.red.shade900;
+          _color2 = Colors.orange.shade900;
         });
       } else {
         setState(() {
@@ -126,7 +126,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.red.shade900,
+                          color: Colors.orange.shade900,
                           width: 2.0,
                         ),
                       ),
@@ -150,7 +150,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.red.shade900,
+                        color: Colors.orange.shade900,
                       ),
                       suffixIcon: IconButton(
                         icon: Icon(hidePass ? Icons.visibility : Icons.visibility_off),
@@ -171,7 +171,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.red.shade900,
+                          color: Colors.orange.shade900,
                           width: 2.0,
                         ),
                       ),
@@ -184,7 +184,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ],
             ),
             data: Theme.of(context).copyWith(
-              primaryColor: Colors.red.shade900,
+              primaryColor: Colors.orange.shade900,
               // textTheme: const TextTheme(
               //  subtitle1: const TextStyle(
               //    color: Colors.blue, // <-- TextFormField input color
@@ -252,7 +252,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   }
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.red.shade900,
+                  primary: Colors.orange.shade900,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50),
                   ),
