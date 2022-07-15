@@ -182,11 +182,11 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             data: Theme.of(context).copyWith(
               primaryColor: Colors.orange,
-              // textTheme: const TextTheme(
-              //  subtitle1: const TextStyle(
-              //    color: Colors.blue, // <-- TextFormField input color
-              //  ),
-              // ),
+              textTheme: const TextTheme(
+                subtitle1: const TextStyle(
+                  color: Colors.orange, // <-- TextFormField input color
+                ),
+              ),
             ),
           ),
           Padding(
