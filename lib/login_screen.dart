@@ -143,7 +143,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     obscureText: hidePass,
                     controller: passwordController,
                     decoration: InputDecoration(
-                      prefixIcon: Icon(Icons.lock, color: Theme.of(context).primaryColor),
+                      prefixIcon: Icon(
+                        Icons.lock, //Theme.of(context).primaryColor
+                      ),
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
@@ -250,6 +252,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 },
                 style: ElevatedButton.styleFrom(
                   primary: Colors.orange.shade900,
+                  onPrimary: Colors.white,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50),
                   ),
