@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
     _focusNode1.addListener(() {
       if (_focusNode1.hasFocus) {
         setState(() {
-          _color1 = Colors.blue;
+          _color1 = Colors.red.shade900;
         });
       } else {
         setState(() {
@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
     _focusNode2.addListener(() {
       if (_focusNode2.hasFocus) {
         setState(() {
-          _color2 = Colors.blue;
+          _color2 = Colors.red.shade900;
         });
       } else {
         setState(() {
