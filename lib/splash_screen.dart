@@ -32,14 +32,14 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return EasySplashScreen(
       logo: Image.asset('assets/images/salero.png'),
-      title: Text(
-        "Title",
-        style: TextStyle(
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-      backgroundColor: Colors.grey.shade400,
+      //title: Text(
+      //" ",
+      //style: TextStyle(
+      //fontSize: 18,
+      //fontWeight: FontWeight.bold,
+      //),
+      //),
+      backgroundColor: Colors.grey.shade900,
       showLoader: true,
       loadingText: Text("Loading..."),
       navigator: LoginScreen(),
