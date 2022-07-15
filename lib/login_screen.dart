@@ -143,10 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     obscureText: hidePass,
                     controller: passwordController,
                     decoration: InputDecoration(
-                      prefixIcon: Icon(
-                        Icons.lock,
-                        //color: Theme.of(context).primaryColor
-                      ),
+                      prefixIcon: Icon(Icons.lock, color: Theme.of(context).primaryColor),
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
