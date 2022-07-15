@@ -32,6 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return EasySplashScreen(
       logo: Image.asset('assets/images/salero.png'),
+      photoSize: 170.0,
       //title: Text(
       //" ",
       //style: TextStyle(
