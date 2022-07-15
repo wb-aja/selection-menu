@@ -68,7 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey.shade200,
       body: Column(
         children: [
           SizedBox(
@@ -76,7 +76,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           Expanded(
             child: Image.asset(
-              'assets/images/salero.jpg',
+              'assets/images/salero.png',
               height: 800,
             ),
           ),

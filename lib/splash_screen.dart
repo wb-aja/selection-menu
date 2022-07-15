@@ -10,7 +10,7 @@ class SplashScreenPage extends StatelessWidget {
       seconds: 5, //mengatur waktu
       navigateAfterSeconds: LoginScreen(),
       //title: new Text('Salero'),
-      image: Image.asset('assets/images/salero.jpg'),
+      image: Image.asset('assets/images/salero.png'),
       photoSize: 170.0,
     );
   }
