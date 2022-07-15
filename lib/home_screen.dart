@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text('Rumah Makan Lamak Bana'),
+        title: new Text('Salero'),
       ),
       body: Center(
         child: GridView.count(

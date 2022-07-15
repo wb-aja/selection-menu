@@ -9,8 +9,8 @@ class SplashScreenPage extends StatelessWidget {
     return new SplashScreen(
       seconds: 5, //mengatur waktu
       navigateAfterSeconds: LoginScreen(),
-      title: new Text('Rumah Makan Lamak Bana'),
-      image: Image.asset('assets/images/logo.png'),
+      title: new Text('Salero'),
+      image: Image.asset('assets/images/salero.jpg'),
       photoSize: 150.0,
     );
   }
