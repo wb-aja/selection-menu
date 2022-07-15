@@ -4,6 +4,7 @@ import 'login_screen.dart';
 import 'makanan.dart';
 import 'minuman.dart';
 import 'snack.dart';
+import 'cart_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -72,6 +73,26 @@ class HomeScreen extends StatelessWidget {
                     children: const <Widget>[
                       Icon(Icons.fastfood_outlined, size: 70, color: Colors.orange),
                       Text("Snack", style: TextStyle(fontSize: 17.0)),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: const EdgeInsets.all(8),
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(builder: (_) => CartScreen()),
+                  );
+                },
+                splashColor: Colors.orange.shade300,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: const <Widget>[
+                      Icon(Icons.emoji_food_beverage_outlined, size: 70, color: Colors.orange),
+                      Text("Minuman", style: TextStyle(fontSize: 17.0)),
                     ],
                   ),
                 ),
