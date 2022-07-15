@@ -198,7 +198,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: RichText(
                 text: TextSpan(
                   text: 'Forgot Password?',
-                  style: TextStyle(fontSize: textSize, color: Colors.black),
+                  style: TextStyle(fontSize: textSize, color: Colors.orange.shade900),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {
                       ScaffoldMessenger.of(context).showSnackBar(
