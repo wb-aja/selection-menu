@@ -270,7 +270,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: <TextSpan>[
                 TextSpan(
                   text: 'Sign Up',
-                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),
+                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orange.shade900),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {
                       Navigator.of(context).push(

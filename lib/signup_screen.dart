@@ -35,7 +35,7 @@ class _SignupScreenState extends State<SignupScreen> {
     _focusNode3.addListener(() {
       if (_focusNode3.hasFocus) {
         setState(() {
-          _color3 = Colors.blue;
+          _color3 = Colors.orange;
         });
       } else {
         setState(() {
@@ -46,7 +46,7 @@ class _SignupScreenState extends State<SignupScreen> {
     _focusNode4.addListener(() {
       if (_focusNode4.hasFocus) {
         setState(() {
-          _color4 = Colors.blue;
+          _color4 = Colors.orange;
         });
       } else {
         setState(() {
@@ -57,7 +57,7 @@ class _SignupScreenState extends State<SignupScreen> {
     _focusNode5.addListener(() {
       if (_focusNode5.hasFocus) {
         setState(() {
-          _color5 = Colors.blue;
+          _color5 = Colors.orange;
         });
       } else {
         setState(() {
@@ -68,7 +68,7 @@ class _SignupScreenState extends State<SignupScreen> {
     _focusNode6.addListener(() {
       if (_focusNode6.hasFocus) {
         setState(() {
-          _color6 = Colors.blue;
+          _color6 = Colors.orange;
         });
       } else {
         setState(() {
@@ -79,7 +79,7 @@ class _SignupScreenState extends State<SignupScreen> {
     _focusNode7.addListener(() {
       if (_focusNode7.hasFocus) {
         setState(() {
-          _color7 = Colors.blue;
+          _color7 = Colors.orange;
         });
       } else {
         setState(() {
@@ -106,7 +106,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
                 iconSize: 30,
                 color: Colors.black,
-                splashColor: Colors.blue,
+                splashColor: Colors.orange,
                 onPressed: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
@@ -141,7 +141,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.orange,
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
@@ -153,7 +153,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.orange,
                           width: 2.0,
                         ),
                       ),
@@ -174,7 +174,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.orange,
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
@@ -186,7 +186,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.orange,
                           width: 2.0,
                         ),
                       ),
@@ -207,7 +207,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.orange,
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
@@ -219,7 +219,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.orange,
                           width: 2.0,
                         ),
                       ),
@@ -239,7 +239,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.orange,
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
@@ -251,7 +251,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.orange,
                           width: 2.0,
                         ),
                       ),
@@ -271,7 +271,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       filled: true,
                       fillColor: Colors.white,
                       labelStyle: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.orange,
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
@@ -283,7 +283,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide: BorderSide(
-                          color: Colors.blue,
+                          color: Colors.orange,
                           width: 2.0,
                         ),
                       ),
@@ -296,7 +296,7 @@ class _SignupScreenState extends State<SignupScreen> {
               ],
             ),
             data: Theme.of(context).copyWith(
-              primaryColor: Colors.blue,
+              primaryColor: Colors.orange,
             ),
           ),
           SizedBox(
@@ -314,7 +314,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue.shade900,
+                  primary: Colors.orange.shade900,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
@@ -331,7 +331,7 @@ class _SignupScreenState extends State<SignupScreen> {
               children: <TextSpan>[
                 TextSpan(
                   text: 'Login here',
-                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),
+                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.orange),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () {
                       Navigator.of(context).push(
