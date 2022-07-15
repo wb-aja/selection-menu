@@ -76,12 +76,12 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           Expanded(
             child: Image.asset(
-              'assets/images/logo.png',
+              'assets/images/salero.jpg',
               height: 800,
             ),
           ),
           Text(
-            'Rumah Makan Lamak Bana',
+            'Salero',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black),
           ),
           SizedBox(
