@@ -80,10 +80,10 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 800,
             ),
           ),
-          Text(
-            'Salero',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black),
-          ),
+          ////Text(
+          //  'Salero',
+          //  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black),
+          // ),
           SizedBox(
             height: 10,
           ),
