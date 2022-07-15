@@ -118,11 +118,11 @@ class _SignupScreenState extends State<SignupScreen> {
             ),
           ]),
           Text(
-            'Lets Get Started!',
+            'RM Padang Salero',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.black),
           ),
           Text(
-            'Create an account to Q Allure to get all features ',
+            'Halaman Signup',
             style: TextStyle(color: Colors.black),
           ),
           SizedBox(
@@ -315,6 +315,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 },
                 style: ElevatedButton.styleFrom(
                   primary: Colors.orange.shade900,
+                  onPrimary: Colors.white,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
